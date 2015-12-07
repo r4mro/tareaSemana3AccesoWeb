@@ -134,6 +134,9 @@
                                     <animations/>
                                 </tableViewCellContentView>
                                 <animations/>
+                                <connections>
+                                    <segue destination="OYl-aq-HXg" kind="show" id="cnl-ze-Zh3"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -144,7 +147,7 @@
                     <navigationItem key="navigationItem" title="Mis Libros" id="fpE-YQ-MsV">
                         <barButtonItem key="leftBarButtonItem" title="Buscar" id="xnA-OP-xsu">
                             <connections>
-                                <segue destination="1co-a0-hDx" kind="show" id="PJY-YJ-48H"/>
+                                <segue destination="1co-a0-hDx" kind="show" identifier="buscarSegue" id="PJY-YJ-48H"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -152,6 +155,50 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tuo-CI-ac9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1121" y="1094"/>
+        </scene>
+        <!--Detalle View Controller-->
+        <scene sceneID="7zA-W3-drd">
+            <objects>
+                <viewController id="OYl-aq-HXg" customClass="DetalleViewController" customModule="AccesoWebTable" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="omX-Bh-gta"/>
+                        <viewControllerLayoutGuide type="bottom" id="2yk-ib-Kxb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="m1X-ub-MJR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LXx-gP-p5r">
+                                <rect key="frame" x="50" y="99" width="275" height="34"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7CE-FJ-pPo">
+                                <rect key="frame" x="50" y="183" width="264" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zo6-xd-fZp">
+                                <rect key="frame" x="50" y="262" width="220" height="202"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="autorText" destination="7CE-FJ-pPo" id="E6d-mn-h7B"/>
+                        <outlet property="image" destination="zo6-xd-fZp" id="owk-Ot-FWD"/>
+                        <outlet property="nameText" destination="LXx-gP-p5r" id="iDX-TO-ucl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KJe-Vf-y0f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1868" y="1060"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="QOd-DP-OZx">

@@ -14,6 +14,8 @@
 		8C39F8A81C1539AD00BA7DD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C39F8A71C1539AD00BA7DD9 /* Assets.xcassets */; };
 		8C39F8AB1C1539AD00BA7DD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C39F8A91C1539AD00BA7DD9 /* LaunchScreen.storyboard */; };
 		8C39F8B31C154C2800BA7DD9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C39F8B21C154C2800BA7DD9 /* TableViewController.swift */; };
+		8C39F8B51C1555DC00BA7DD9 /* DetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C39F8B41C1555DC00BA7DD9 /* DetalleViewController.swift */; };
+		8C39F8B71C155B0500BA7DD9 /* no.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C39F8B61C155B0500BA7DD9 /* no.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		8C39F8AA1C1539AD00BA7DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C39F8AC1C1539AD00BA7DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C39F8B21C154C2800BA7DD9 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8C39F8B41C1555DC00BA7DD9 /* DetalleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalleViewController.swift; sourceTree = "<group>"; };
+		8C39F8B61C155B0500BA7DD9 /* no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		8C39F89C1C1539AD00BA7DD9 /* AccesoWebTable */ = {
 			isa = PBXGroup;
 			children = (
+				8C39F8B61C155B0500BA7DD9 /* no.png */,
 				8C39F89D1C1539AD00BA7DD9 /* AppDelegate.swift */,
 				8C39F89F1C1539AD00BA7DD9 /* ViewController.swift */,
 				8C39F8A11C1539AD00BA7DD9 /* Main.storyboard */,
@@ -66,6 +71,7 @@
 				8C39F8AC1C1539AD00BA7DD9 /* Info.plist */,
 				8C39F8A41C1539AD00BA7DD9 /* AccesoWebTable.xcdatamodeld */,
 				8C39F8B21C154C2800BA7DD9 /* TableViewController.swift */,
+				8C39F8B41C1555DC00BA7DD9 /* DetalleViewController.swift */,
 			);
 			path = AccesoWebTable;
 			sourceTree = "<group>";
@@ -130,6 +136,7 @@
 			files = (
 				8C39F8AB1C1539AD00BA7DD9 /* LaunchScreen.storyboard in Resources */,
 				8C39F8A81C1539AD00BA7DD9 /* Assets.xcassets in Resources */,
+				8C39F8B71C155B0500BA7DD9 /* no.png in Resources */,
 				8C39F8A31C1539AD00BA7DD9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C39F8A01C1539AD00BA7DD9 /* ViewController.swift in Sources */,
+				8C39F8B51C1555DC00BA7DD9 /* DetalleViewController.swift in Sources */,
 				8C39F89E1C1539AD00BA7DD9 /* AppDelegate.swift in Sources */,
 				8C39F8A61C1539AD00BA7DD9 /* AccesoWebTable.xcdatamodeld in Sources */,
 				8C39F8B31C154C2800BA7DD9 /* TableViewController.swift in Sources */,

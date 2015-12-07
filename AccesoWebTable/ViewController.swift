@@ -100,7 +100,7 @@ class ViewController: UIViewController {
                     print("No contiene imagen")
                     let image = UIImage(named: "no.png")
                     self.ivImagenLibro.image = image
-                    imageText = "no tiene imagen"
+                    imageText = ""
                     print("\(name), \(autor), \(imageText)")
                    saveBook(name, autor: autor, image: imageText)
                 }
