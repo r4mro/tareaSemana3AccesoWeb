@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C39F89E1C1539AD00BA7DD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C39F89D1C1539AD00BA7DD9 /* AppDelegate.swift */; };
+		8C39F8A01C1539AD00BA7DD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C39F89F1C1539AD00BA7DD9 /* ViewController.swift */; };
+		8C39F8A31C1539AD00BA7DD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C39F8A11C1539AD00BA7DD9 /* Main.storyboard */; };
+		8C39F8A61C1539AD00BA7DD9 /* AccesoWebTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C39F8A41C1539AD00BA7DD9 /* AccesoWebTable.xcdatamodeld */; };
+		8C39F8A81C1539AD00BA7DD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C39F8A71C1539AD00BA7DD9 /* Assets.xcassets */; };
+		8C39F8AB1C1539AD00BA7DD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C39F8A91C1539AD00BA7DD9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C39F89A1C1539AD00BA7DD9 /* AccesoWebTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccesoWebTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C39F89D1C1539AD00BA7DD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C39F89F1C1539AD00BA7DD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C39F8A21C1539AD00BA7DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C39F8A51C1539AD00BA7DD9 /* AccesoWebTable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AccesoWebTable.xcdatamodel; sourceTree = "<group>"; };
+		8C39F8A71C1539AD00BA7DD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C39F8AA1C1539AD00BA7DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C39F8AC1C1539AD00BA7DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C39F8971C1539AD00BA7DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C39F8911C1539AD00BA7DD9 = {
+			isa = PBXGroup;
+			children = (
+				8C39F89C1C1539AD00BA7DD9 /* AccesoWebTable */,
+				8C39F89B1C1539AD00BA7DD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C39F89B1C1539AD00BA7DD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C39F89A1C1539AD00BA7DD9 /* AccesoWebTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C39F89C1C1539AD00BA7DD9 /* AccesoWebTable */ = {
+			isa = PBXGroup;
+			children = (
+				8C39F89D1C1539AD00BA7DD9 /* AppDelegate.swift */,
+				8C39F89F1C1539AD00BA7DD9 /* ViewController.swift */,
+				8C39F8A11C1539AD00BA7DD9 /* Main.storyboard */,
+				8C39F8A71C1539AD00BA7DD9 /* Assets.xcassets */,
+				8C39F8A91C1539AD00BA7DD9 /* LaunchScreen.storyboard */,
+				8C39F8AC1C1539AD00BA7DD9 /* Info.plist */,
+				8C39F8A41C1539AD00BA7DD9 /* AccesoWebTable.xcdatamodeld */,
+			);
+			path = AccesoWebTable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C39F8991C1539AD00BA7DD9 /* AccesoWebTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C39F8AF1C1539AD00BA7DD9 /* Build configuration list for PBXNativeTarget "AccesoWebTable" */;
+			buildPhases = (
+				8C39F8961C1539AD00BA7DD9 /* Sources */,
+				8C39F8971C1539AD00BA7DD9 /* Frameworks */,
+				8C39F8981C1539AD00BA7DD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccesoWebTable;
+			productName = AccesoWebTable;
+			productReference = 8C39F89A1C1539AD00BA7DD9 /* AccesoWebTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C39F8921C1539AD00BA7DD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = lagunahack;
+				TargetAttributes = {
+					8C39F8991C1539AD00BA7DD9 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 8C39F8951C1539AD00BA7DD9 /* Build configuration list for PBXProject "AccesoWebTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C39F8911C1539AD00BA7DD9;
+			productRefGroup = 8C39F89B1C1539AD00BA7DD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C39F8991C1539AD00BA7DD9 /* AccesoWebTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C39F8981C1539AD00BA7DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C39F8AB1C1539AD00BA7DD9 /* LaunchScreen.storyboard in Resources */,
+				8C39F8A81C1539AD00BA7DD9 /* Assets.xcassets in Resources */,
+				8C39F8A31C1539AD00BA7DD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C39F8961C1539AD00BA7DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C39F8A01C1539AD00BA7DD9 /* ViewController.swift in Sources */,
+				8C39F89E1C1539AD00BA7DD9 /* AppDelegate.swift in Sources */,
+				8C39F8A61C1539AD00BA7DD9 /* AccesoWebTable.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C39F8A11C1539AD00BA7DD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C39F8A21C1539AD00BA7DD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C39F8A91C1539AD00BA7DD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C39F8AA1C1539AD00BA7DD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C39F8AD1C1539AD00BA7DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C39F8AE1C1539AD00BA7DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C39F8B01C1539AD00BA7DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AccesoWebTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lagunahack.AccesoWebTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C39F8B11C1539AD00BA7DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AccesoWebTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lagunahack.AccesoWebTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C39F8951C1539AD00BA7DD9 /* Build configuration list for PBXProject "AccesoWebTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C39F8AD1C1539AD00BA7DD9 /* Debug */,
+				8C39F8AE1C1539AD00BA7DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C39F8AF1C1539AD00BA7DD9 /* Build configuration list for PBXNativeTarget "AccesoWebTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C39F8B01C1539AD00BA7DD9 /* Debug */,
+				8C39F8B11C1539AD00BA7DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C39F8A41C1539AD00BA7DD9 /* AccesoWebTable.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C39F8A51C1539AD00BA7DD9 /* AccesoWebTable.xcdatamodel */,
+			);
+			currentVersion = 8C39F8A51C1539AD00BA7DD9 /* AccesoWebTable.xcdatamodel */;
+			path = AccesoWebTable.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8C39F8921C1539AD00BA7DD9 /* Project object */;
+}
